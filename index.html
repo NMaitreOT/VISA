@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#006298"><title>VISA Screening Assistant</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+</head><body>
+<header><div><div class="eyebrow">Vision Impairment Screening Assessment</div><h1>VISA Screening Assistant</h1><p>Clinician workflow • iPad optimized • local-only data</p></div><button id="reset" class="ghost">New screen</button></header>
+<nav id="nav"></nav><main>
+<section class="notice"><strong>Screening aid, not diagnosis.</strong> A negative VISA screen does not rule out visual impairment. Refer to an eye specialist whenever clinical concern remains.</section>
+<section id="patient" class="card"><h2>Patient & screen</h2><div class="grid"><label>Name<input id="name" autocomplete="off"></label><label>Date of birth<input id="dob" type="date"></label><label>Hospital / MRN<input id="mrn" autocomplete="off"></label><label>Screen date<input id="date" type="date"></label><label>Screener<input id="screener" autocomplete="off"></label></div><p class="privacy">Nothing is transmitted or stored remotely. Refresh/new screen clears entered data.</p></section>
+<div id="sections"></div>
+<section id="results" class="card results"><h2>Automated interpretation</h2><div id="status" class="status"></div><div id="summary"></div><div class="actions"><button id="print">Print / Save PDF</button><button id="copy" class="secondary">Copy summary</button></div><p class="fine">Use local referral pathways and clinical judgment. Pre-existing conditions already under eye-care follow-up may alter referral decisions when there is no post-injury deterioration/new symptom.</p></section>
+<section class="card"><h2>Reference thresholds used</h2><ul><li>Distance acuity: 0.0 or 0.2 in each eye = normal screening level; 0.4 or worse = reduced.</li><li>Near acuity: N5 or N6 in each eye = normal screening level; N8 or worse = reduced.</li><li>Grating: small-size grating should be achieved; large-size only = reduced.</li><li>Line bisection: referral threshold is more than 6 mm from center.</li><li>Clock cancellation: referral threshold is fewer than 42 of 50 large clocks.</li><li>Interactive tasks accept touch or Apple Pencil input. Clock drawing remains clinician-interpreted per the source criterion.</li></ul></section>
+</main><footer>VISA content based on materials © VISION Research Unit, University of Liverpool. This implementation is an electronic clinician aid; it does not replace the source instructions or local policy.</footer>
+<script src="app.js"></script></body></html>

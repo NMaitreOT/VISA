@@ -1,0 +1,4 @@
+This repository implementation contains workflow text derived from VISA materials supplied by the authorized user.
+VISA materials: © VISION Research Unit, University of Liverpool.
+No ownership of the VISA instrument or source materials is claimed by this implementation.
+Deployment, reproduction, and distribution must remain within the permission/license granted to the deployer.
